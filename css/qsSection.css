@@ -1,0 +1,41 @@
+#sec1{
+    background-color: rgb(247, 255, 240);
+}
+
+#quemSomos p{
+    text-indent:30px;
+}
+
+#quemSomos{
+    display: grid;
+    grid-template-areas: 
+    "qs_t qs_img"
+    "qs_t1 qs_img"
+    "qs_t2 qs_t2";
+    grid-template-columns: 50% 45%;
+    justify-content:space-between;
+    align-items: start;
+    align-content: baseline;
+}
+
+#qs_t {
+    grid-area: qs_t;
+    color: rgb(37, 84, 56);
+    font-family: "raleway", sans-serif;
+    padding-bottom: 20px;
+}
+
+#qs_t1 {
+    grid-area: qs_t1;
+}
+
+#qs_t2 {
+    grid-area: qs_t2;
+    padding-top: 50px;
+}
+
+#qs_img {
+    grid-area: qs_img;
+    border-radius: 15px;
+}
+

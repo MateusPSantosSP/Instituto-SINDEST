@@ -1,0 +1,23 @@
+#sec4{
+    background-color: rgb(37, 84, 56);
+    color: white;
+}
+
+#bienal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    text-indent:30px;
+}
+
+#bienal p {
+    margin: 15px 0 15px 0;
+}
+
+#bienal img{
+    width: 400px;
+}

@@ -1,0 +1,50 @@
+#sec2{
+    background-color: rgb(37, 84, 56);
+    color: white;
+}
+
+#np_t{
+    grid-area: np_t;
+    font-family: "raleway", sans-serif;
+    padding-bottom: 20px;
+}
+
+#nossosProjetos{
+    display: grid;
+    grid-template-areas: 
+    "np_img np_t"
+    "np_img np_t1 "
+    "np_t2 np_t2";
+    grid-template-columns: 45% 50%;
+    justify-content:space-between;
+    align-items: start;
+    align-content: baseline;
+}
+
+#nossosProjetos p{
+    text-indent:30px;
+}
+
+#np_t1 {
+    grid-area: np_t1;
+}
+
+#np_t2 {
+    grid-area: np_t2;
+    padding-top: 50px;
+}
+
+#np_img {
+    grid-area: np_img;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.projeto {
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "raleway", sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+#sec3{
+    background-color: rgb(247, 255, 240);
+}
+
+#pontos{
+    width: 100%;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    width: 270px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemimg {
+    width: 220px;
+    margin-bottom: 10px;
+}
