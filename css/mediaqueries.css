@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 767px) {
+    section{
+        padding: 15px 50px;
+    }
     .subtitulo{
         font-size: 40px;
     }
